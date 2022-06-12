@@ -1,0 +1,148 @@
+/* From Google Fonts website, we can get Non-Standard Fonts and import them. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+html{
+    display:block;
+}
+
+.navbar{
+    height: 100px;
+    background-color: rgb(236, 90, 107);
+}
+
+.navbar h1{
+    margin-left: 200px;
+    font-size: 60px;
+    font-family: 'Great Vibes',cursive;
+    font-size: 80px;
+}
+
+.Menu{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 200px;
+    font-size: x-large;
+    font-family: serif;
+}
+
+.Menu a{
+    text-decoration: none;
+    color:rgb(216, 201, 201);
+    border-radius: 15px;
+}
+
+
+.banner{
+    display: flex;
+    height: 600px;
+    background-color: rgb(236, 90, 107);
+    padding-top: 100px;
+    padding-left: 200px;
+    justify-content: space-between;
+}
+
+.banner h1{
+    /* padding-top:100px;
+    padding-left:200px; */
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.banner .Link{
+    padding-right: 20px;
+}
+
+.banner a img{
+
+    border-radius: 10px;
+}
+
+.phone{
+    /* justify-content: right; */
+    padding-right: 200px;
+}
+.Cards{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    font-size: large;
+}
+
+.Card{
+    background-color:white;
+    margin: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    width: 325px;
+}
+
+.Card img{
+    align-self: center;
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+.SlideBanner{
+    display:block;
+    background-color: rgb(236, 90, 107);
+    padding: 70px;
+}
+
+.SlideBanner h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 60px;
+}
+
+.SlideBanner .Signature{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-style: italic;
+}
+
+.SlideBanner .Signature img{
+    border-radius: 45px;
+}
+
+.SlideBanner .Signature p{
+    vertical-align: middle;
+    line-height: 100px;
+    padding-top: 10px;
+}
+
+.Logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.Footer{
+    /* display: flex; */
+    height: 200px;
+    background-color: rgb(218, 200, 200);
+}
+
+.Footer .Card{
+    margin: 0px;
+    width: 100%;
+}
+
+.FooterBlock{
+    display: flex;
+    justify-content:space-around    ;
+}
+
+.FooterBlock .Card{
+    padding:0px;
+    padding-bottom: 100px;
+}

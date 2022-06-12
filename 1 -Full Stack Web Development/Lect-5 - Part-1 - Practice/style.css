@@ -1,0 +1,196 @@
+/* From Google Fonts website, we can get Non-Standard Fonts and import them. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    /* This what we call as RESET CSS. After this, we can start modify the CSS for the HTML contents */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+
+.Container {
+    width: 85vw;
+    margin: auto;
+}
+.Container2 {
+    position: relative;
+    width: 85vw;
+    margin: auto;
+    top: -600px;
+}
+
+.nav-bar {
+    display: flex;
+    height: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: skyblue; */
+}
+
+.logo {
+    font-weight: 900;
+    font-family:poppins;
+    font-size: xx-large;
+}
+
+.Links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-family:poppins;
+}
+
+li a {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-style: italic;
+    cursor: default;
+}
+
+li:hover {
+    color: yellow;
+    text-shadow: 3px 3px 5px red;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.Content {
+    /* background-color: rgb(224, 192, 192); */
+    margin-top: 40px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-around;
+    text-align:left;
+    line-height: 40px;
+    font-family: Poppins;
+    /* background-color: aqua; */
+}
+
+.Title {
+    font-family: "Open Sans";
+    font-size: xx-large;
+    line-height: 3;
+}
+
+.Bottom{
+    display: flex;
+    align-self: center;
+    background-color: darkslategrey;
+    text-decoration: none;
+    color: wheat;
+    width: 15%;
+    height: 15%;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Bottom:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 5px yellow;
+    
+}
+
+.Portfolio {
+    color: blue;
+    font-style: italic;
+}
+
+.Body-Contents {
+    width: 1200px;
+    line-height: 1.5;
+    /* To follow the margin or the allignment of the parent container, we use the margin auto value */
+    margin: auto;
+    text-justify:inter-word;
+}
+
+.Cards {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    gap: 40px;
+    line-height: 1.5;
+    /* background-color: aqua; */
+}
+
+@media screen and (max-width: 1200px){
+    .Cards{
+        display: grid;
+        grid-template-columns: repeat(1,750px);
+    }
+
+    .BackgroundSection{
+        visibility: hidden;
+    }
+}
+.card {
+    display: flex;
+    width: 400px;
+    height: 900px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.card:nth-child(1) {
+    background-color: lightgrey;
+}
+
+.card:nth-child(2) {
+    background-color: purple;
+}
+
+.Card-Image {
+    height: 800px;
+    width: 500px;
+    border-radius: 45px;
+    box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.4);
+    filter: grayscale(1) blur(3px);
+    transition: 1s;
+}
+
+.card:hover {
+    box-shadow: 10px 6px 20px rgba(196, 19, 202, 0.9);
+    transform: scale(1.02);
+}
+
+/* .Grey {
+    background-color: lightgrey;
+}
+
+.Purple {
+    background-color: purple;
+} */
+
+.Category{
+    font-size:medium;
+    line-height: 2.5;
+}
+
+.Card-Description{
+    width: 500px;
+    text-align: justify;
+}
+
+.BackgroundSection{
+    position:relative;
+    height: 700px;
+    background-color: blanchedalmond;
+    top: -1100px;
+    z-index: -1;
+}
+
+.Cards .Card img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0) brightness(1.3) blur(0);
+    transition-timing-function: ease-in-out;
+}

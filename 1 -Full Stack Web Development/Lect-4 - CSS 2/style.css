@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+
+.Container {
+    width: 1700px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    height: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: skyblue; */
+}
+
+.logo {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica;
+    font-size: xx-large;
+}
+
+.Links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: darkolivegreen;
+    font-style: italic;
+}
+
+li:hover {
+    color: yellow;
+    text-shadow: 3px 3px 5px red;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.Content {
+    /* background-color: rgb(224, 192, 192); */
+    margin-top: 40px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 40px;
+}
+
+.Title {
+    font-family: "Open Sans";
+}
+
+.Portfolio {
+    color: blue;
+    font-style: italic;
+}
+
+.Body-Contents {
+    width: 520px;
+    line-height: 30px;
+    /* To follow the margin or the allignment of the parent container, we use the margin auto value */
+    margin: auto;
+}
+
+.Cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 5px 3px 15px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.card:nth-child(1) {
+    background-color: lightgrey;
+}
+
+.card:nth-child(2) {
+    background-color: purple;
+}
+
+.Card-Image {
+    border-radius: 45px;
+}
+
+.card:hover {
+    box-shadow: 10px 6px 20px rgba(196, 19, 202, 0.9);
+    transform: scale(1.02);
+}
+
+/* .Grey {
+    background-color: lightgrey;
+}
+
+.Purple {
+    background-color: purple;
+} */
