@@ -1,0 +1,78 @@
+/* Firstly, Arrange the menu as we want them to appear */
+.html{
+    display: flex;
+}
+.Horizental-Menu{
+    list-style: none;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.Horizental-Menu li{
+    float: left;
+}
+
+.Horizental-Menu a{
+    background-color: aquamarine;
+    display: block;
+    width: 200px;
+    text-decoration: none;
+    /* float: left; */
+}
+
+.Vertical-Menu{
+    display: none;
+}
+.Dropper{
+    display: inline-block;
+}
+.Vertical-Menu{
+    width: 200px;
+}
+.Vertical-Menu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    background-color: rgba(200, 100,50, 0.5);
+}
+
+.Vertical-Menu a:hover{
+    background-color:chartreuse;
+}
+
+/* Last Step: Show the Vertical Menu from the Dropper */
+.Dropper:hover .Vertical-Menu{
+    display: block;
+}
+
+/* Now Creating the Hamburger Menu */
+.Hamburger-Menu{
+    display: none;
+}
+
+.Hamburger-Menu img{
+    
+}
+
+
+@media screen and (max-width: 1200px){
+    .Horizental-Menu{
+        display: none;
+        position: absolute;
+        width: 100px;
+        left: 60%;
+    }
+
+    .Hamburger-Menu{
+        display: block;
+        position: absolute;
+        right: 100px;
+    }
+    
+    .HOV:hover .Horizental-Menu{
+        display:block;
+        background-color: aqua;
+        z-index: 1;
+    }
+}

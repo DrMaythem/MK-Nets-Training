@@ -1,0 +1,117 @@
+html{
+    background-color: purple;
+    /* background-image: url("../Images/BackgroundPersonal.JPG");
+    background-size:contain;
+    background-attachment: fixed ;
+    background-repeat:no-repeat;
+    background-position: center;     */
+    font-family:Arial, Helvetica, sans-serif;
+    /* font-weight: 550; */
+}
+.Title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color:burlywood;
+}
+
+.OutContainer{
+    margin: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
+    background-color: white;
+    font-size: x-large;
+    border-radius: 25px;
+}
+
+.Details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SectionHeader{
+    margin-top: 50px;
+}
+
+.PersonalPicture img{
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.SMProfile{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 180px;
+    gap: 150px;
+}
+
+.SMProfile a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.SMProfile a img{
+    border-radius: 15px;
+}
+
+.SocialMedia p{
+    display: inline;
+    margin-left: 30px;
+    align-self: center;
+}
+
+.InternationalRecognition{
+    margin-top: 70px;
+}
+
+.Recognitions{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    gap: 50px;   
+    justify-content: center;
+}
+
+.RecognitionCard{
+    text-align: center;
+    align-self: center;
+}
+
+.Recognitions p{
+    text-align:center;
+}
+
+li{
+    line-height: 60px;
+    
+}
+
+.YearColumn{
+    width: 20%;
+    padding-left: 200px;
+    vertical-align: top;
+}
+
+.DataColumn{
+    width: 40%;
+    /* padding-left: 100px; */
+    vertical-align: top;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.OneColumnList{
+    padding-left: 250px;
+    padding-right: 100px;   
+    text-align: justify;
+    
+}
+
+.PublicationYear{
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration:double underline;
+    color: Red;
+}
