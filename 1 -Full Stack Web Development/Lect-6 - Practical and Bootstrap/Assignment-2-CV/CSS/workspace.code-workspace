@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\..\\..\\wamp64\\www\\Personal_Page"
+		},
+		{
+			"path": "..\\..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\UTAR - October 2021\\1 - Lecturing\\1 - UECS2094 2194 - Web Application Development\\My Lectures\\Week 5 - CSS 2"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\UTAR - June 2022\\1 - Lecturing\\1 - UECS2094 2194 - Web Application Development\\My Lectures\\Week 5 - SASS"
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\UTAR - June 2022\\1 - Lecturing\\1 - UECS2094 2194 - Web Application Development\\My Lectures\\Week 4 - HTML 3"
+		},
+		{
+			"path": "..\\..\\Assignment-1"
+		},
+		{
+			"path": "..\\..\\..\\Lect-7 - JavaScript"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MK Nets Training"
+	}
+}
