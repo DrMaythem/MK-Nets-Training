@@ -23,6 +23,7 @@ html{
     background-color: white;
     font-size: x-large;
     border-radius: 25px;
+    overflow: hidden;
 }
 
 .Details{
@@ -114,4 +115,32 @@ li{
     font-size: xx-large;
     text-decoration:double underline;
     color: Red;
+}
+
+.Facebook {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: -300px;
+    top: 200px;
+    border-radius: 10px;
+    background: rgba(58, 58, 189, 0.5);
+    transition: left 2s;
+    transition-timing-function: cubic-bezier(0, 0.1, 10, 1);
+}
+
+.WhatsApp {
+    width: 300px;
+    height: 50px;
+    position: relative;
+    left: -300px;
+    top: 210px;
+    border-radius: 10px;
+    background: Green;
+    transition: left 2s;
+    transition-timing-function: cubic-bezier(0.1, 0.8, 1.0, 1);
+}
+
+.WhatsApp:hover, .Facebook:hover {
+    left: -60px;
 }

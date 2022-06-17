@@ -43,14 +43,14 @@
     padding-top: 100px;
     padding-left: 200px;
     justify-content: space-between;
+    overflow:hidden;
 }
 
 .banner h1{
-    /* padding-top:100px;
-    padding-left:200px; */
     font-family: 'Times New Roman', Times, serif;
     line-height: 100px;
     font-size: 60px;
+    min-width: 400px;
 }
 
 .banner .Link{
