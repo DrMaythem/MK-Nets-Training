@@ -145,7 +145,7 @@ li{
     left: -60px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     html{
         background-color: purple;
         font-family:Arial, Helvetica, sans-serif;
