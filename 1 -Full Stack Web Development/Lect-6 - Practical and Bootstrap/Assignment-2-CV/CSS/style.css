@@ -144,3 +144,155 @@ li{
 .WhatsApp:hover, .Facebook:hover {
     left: -60px;
 }
+
+@media screen and (max-width: 800px) {
+    html{
+        background-color: purple;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .Title{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color:burlywood;
+    }
+    
+    .OutContainer{
+        margin: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        background-color: white;
+        font-size: large;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    
+    .Details{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    
+    .SectionHeader{
+        margin-top: 25px;
+    }
+    
+    .PersonalPicture {
+        display:flex;
+    }
+    
+    .PersonalPicture img{
+        margin-top: 15px;
+        border-radius: 15px;
+        height: 300px;
+    }
+    
+    .SMProfile{
+        display: flex;
+        margin-top: 15px;
+        margin-left: 90px;
+        gap: 70px;
+    }
+    
+    .SMProfile a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .SMProfile a img{
+        border-radius: 5px;
+    }
+    .SMProfile p{
+        visibility: hidden;
+    }
+
+    .SocialMedia p{
+        display: inline;
+        margin-left: 15px;
+        align-self: center;
+    }
+    
+    .InternationalRecognition{
+        margin-top: 30px;
+    }
+    
+    .Recognitions{
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 15px;
+        margin-left: 70px;
+        gap: 20px;   
+        justify-content: center;
+    }
+    
+    .RecognitionCard{
+        text-align: center;
+        align-self: center;
+    }
+    
+    .Recognitions p{
+        text-align:center;
+    }
+    
+    li{
+        line-height: 30px;
+        
+    }
+    
+    .YearColumn{
+        width: 20%;
+        padding-left: 30px;
+        vertical-align: top;
+    }
+    
+    .DataColumn{
+        width: 40%;
+        /* padding-left: 100px; */
+        vertical-align: top;
+        padding-right: 50px;
+        text-align: justify;
+    }
+    
+    .OneColumnList{
+        padding-left: 50px;
+        padding-right: 50px;   
+        text-align: justify;
+        
+    }
+    
+    .PublicationYear{
+        font-weight: bold;
+        font-size: x-large;
+        text-decoration:double underline;
+        color: Red;
+    }
+    
+    .Facebook {
+        visibility: hidden;
+        width: 300px;
+        height: 50px;
+        position: relative;
+        left: 0px;
+        top: 200px;
+        border-radius: 5px;
+        background: rgba(58, 58, 189, 0.5);
+    }
+    
+    .WhatsApp {
+        visibility: hidden;
+        width: 300px;
+        height: 50px;
+        position: relative;
+        left: 0px;
+        top: 210px;
+        border-radius: 10px;
+        background: Green;
+    }
+    
+    .WhatsApp:hover, .Facebook:hover {
+
+    }
+       
+}
