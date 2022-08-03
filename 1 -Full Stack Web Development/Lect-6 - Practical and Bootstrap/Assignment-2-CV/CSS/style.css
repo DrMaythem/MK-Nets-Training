@@ -156,7 +156,7 @@ li{
     left: -60px;
 }
 
-@media screen and (max-device-width: 1500px) {
+@media screen and (max-device-width: 400px) {
     html{
         background-color:purple;
         font-family:Arial, Helvetica, sans-serif;
@@ -182,8 +182,8 @@ li{
     }
     
     .OutContainer{
-        width:90%;
-        margin: 10px;
+        width:94%;
+        margin-left: 3px;
         margin-top: 5px;
         margin-bottom: 5px;
         padding: 10px;
@@ -196,6 +196,7 @@ li{
     .Details{
         display: flex;
         flex-wrap: wrap;
+        gap: 0px;
     }
     
     .SectionHeader{
@@ -246,7 +247,7 @@ li{
         flex-wrap: wrap;
         display: flex;
         margin-top: 15px;
-        margin-left: 70px;
+        margin-left: 0px;
         gap: 20px;   
         justify-content: center;
     }
@@ -257,7 +258,7 @@ li{
     }
     
     .RecognitionCard img{
-        width: 50px;
+        width: 100px;
         height: 50px;
     }
         .Recognitions p{
@@ -276,7 +277,7 @@ li{
     }
     
     .DataColumn{
-        width: 40%;
+        width: 80%;
         /* padding-left: 100px; */
         vertical-align: top;
         padding-right: 10px;
@@ -287,7 +288,6 @@ li{
         padding-left: 10px;
         padding-right: 10px;   
         text-align: justify;
-        
     }
     
     .PublicationYear{
