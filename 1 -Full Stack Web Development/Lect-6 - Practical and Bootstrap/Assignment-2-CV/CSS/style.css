@@ -11,6 +11,7 @@ html{
 
 .Desktop{
     visibility:visible;
+    display: block;
 }
 
 .Mobile{
@@ -155,7 +156,7 @@ li{
     left: -60px;
 }
 
-@media screen and (max-device-width: 500px) {
+@media screen and (max-device-width: 1500px) {
     html{
         background-color:purple;
         font-family:Arial, Helvetica, sans-serif;
@@ -169,9 +170,10 @@ li{
 
     .Mobile{
         visibility: visible;
+        display: block;
     }
     .Title{
-        width: 95%;
+        width: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
         justify-self: center;
@@ -194,7 +196,6 @@ li{
     .Details{
         display: flex;
         flex-wrap: wrap;
-
     }
     
     .SectionHeader{
@@ -214,8 +215,8 @@ li{
     .SMProfile{
         display: flex;
         margin-top: 15px;
-        margin-left: 90px;
-        gap: 70px;
+        margin-left: 50px;
+        gap: 50px;
     }
     
     .SMProfile a{
@@ -255,7 +256,11 @@ li{
         align-self: center;
     }
     
-    .Recognitions p{
+    .RecognitionCard img{
+        width: 50px;
+        height: 50px;
+    }
+        .Recognitions p{
         text-align:center;
     }
     
@@ -266,7 +271,7 @@ li{
     
     .YearColumn{
         width: 20%;
-        padding-left: 30px;
+        padding-left: 10px;
         vertical-align: top;
     }
     
@@ -274,18 +279,19 @@ li{
         width: 40%;
         /* padding-left: 100px; */
         vertical-align: top;
-        padding-right: 50px;
+        padding-right: 10px;
         text-align: justify;
     }
     
     .OneColumnList{
-        padding-left: 50px;
-        padding-right: 50px;   
+        padding-left: 10px;
+        padding-right: 10px;   
         text-align: justify;
         
     }
     
     .PublicationYear{
+        padding-left: 10px;
         font-weight: bold;
         font-size: x-large;
         text-decoration:double underline;
