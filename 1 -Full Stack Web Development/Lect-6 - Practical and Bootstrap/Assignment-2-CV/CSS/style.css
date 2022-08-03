@@ -145,14 +145,17 @@ li{
     left: -60px;
 }
 
-@media screen and (max-width: 150px) {
+@media screen and (max-device-width: 500px) {
     html{
         background-color: purple;
         font-family:Arial, Helvetica, sans-serif;
+        font-size:small;
     }
+    
     .Title{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        width: 95%;
+        padding-top: 10px;
+        padding-bottom: 10px;
         text-align: center;
         background-color:burlywood;
     }
