@@ -171,15 +171,16 @@ li{
         visibility: visible;
     }
     .Title{
-        width: 85%;
+        width: 95%;
         padding-top: 10px;
         padding-bottom: 10px;
+        justify-self: center;
         text-align: center;
         background-color:burlywood;
     }
     
     .OutContainer{
-        width:95%;
+        width:90%;
         margin: 10px;
         margin-top: 5px;
         margin-bottom: 5px;
